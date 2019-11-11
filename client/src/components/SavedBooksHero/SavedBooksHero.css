@@ -1,0 +1,26 @@
+.saved-hero-container {
+    height: 3rem;
+
+}
+.saved-header-background {
+    display: block;
+    position: relative;
+    height: 4.5rem;
+  }
+  
+  .saved-header-background:after {
+    content: "";
+    background: linear-gradient(45deg,rgba(0, 98, 102, 0.8),rgba(72, 219, 251, 0.7), rgba(72, 219, 251, 0.5), #fff), url("https://cdn.worldvectorlogo.com/logos/google-play-books.svg");
+    object-fit: cover;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;   
+  }
+  
+  .saved-main-title {
+    font-family: 'Quicksand', sans-serif;
+  }

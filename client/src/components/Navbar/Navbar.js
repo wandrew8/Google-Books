@@ -32,20 +32,3 @@ function Navbar() {
 
 export default Navbar;
 
-
-
-// <nav className="navbar navbar-expand-lg navbar-dark primary-color">
-//         <img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/128/book-icon.png" height="30" alt="book logo" />Google Books Search
-//     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-//         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-//         <span className="navbar-toggler-icon"></span>
-//     </button>
-//     <div className="collapse navbar-collapse" id="navbarNav">
-//         <ul className="nav nav-tabs">
-//             <li className={window.location.pathname === "/" || window.location.pathname === "/search" ? "nav-link active" : "nav-link"}>
-//             </li>
-//             <li className={window.location.pathname === "/saved" ? "nav-link active" : "nav-link"}>
-//             </li>
-//         </ul>
-//     </div>
-// </nav>
