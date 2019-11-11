@@ -14,7 +14,8 @@ Check out the deployed site [here](https://wandrew8.github.io/Google-Book-Search
 * CSS
 * Bootstrap
 
-### Back-End Teck
+### Back-End Tech
+
 * MongoDB
 * Mongoose NPM package
 * Google Books API

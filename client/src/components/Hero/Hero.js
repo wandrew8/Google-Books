@@ -6,7 +6,7 @@ function Hero() {
 
         <div class="header-background">
             <div class="hero-container">
-                <h1 class="display-4">Google Book Search</h1>
+                <h1 class="display-4 main-title">Google Book Search</h1>
                 <p class="lead">Search for and save a collection of your favorite books!</p>
             </div>
         </div>

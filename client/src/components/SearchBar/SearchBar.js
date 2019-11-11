@@ -1,17 +1,25 @@
-import React, { Component } from 'react'
-import './SearchBar.css'
+import React from "react";
+import "./SearchBar.css";
 
-export class SearchBar extends Component {
-    render() {
-        return (
-            <div className="container form-container">
-                <form className="form-inline my-2 my-lg-0">
-                    <input className="form-control search-bar mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        )
-    }
+function SearchBar(props) {
+    return (
+        <div className="container form-container">
+            <form className="form-inline my-2 my-lg-0">
+                <div className="form-group">
+                    <input
+                        value={props.searchQuery}
+                        onChange={props.handleInputChange}
+                        name="searchQuery"
+                        type="search"
+                        className="form-inline my-2 my-lg-0 search-bar"
+                        placeholder="Search" aria-label="Search" />
+                    <button type="submit" onClick={props.handleFormSubmit} className="btn btn-outline-primary my-2 my-sm-0">
+                        Search
+                    </button>
+                </div>
+            </form>
+        </div>
+    );
 }
 
-export default SearchBar
+export default SearchBar;

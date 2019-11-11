@@ -1,3 +1,7 @@
 .navbar {
     background-color: #444;
 }
+
+.nav-link a {
+    color: black;
+}

@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
+import CardBookSaved from '../../CardBookSaved/CardBookSaved';
 
 export class Saved extends Component {
     state = {
 
     }
 
+    removeBook = (event) => {
+        event.preventDefault();
+        alert("This book has been removed from your collection")
+    }
+
     render() {
         return (
-            <div>
-                <h1>This is the saved books page</h1>
+            <div className="container">
+            <CardBookSaved 
+                removeBook={this.removeBook}
+            />
             </div>
         )
     }

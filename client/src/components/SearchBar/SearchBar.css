@@ -1,6 +1,7 @@
 .form-container {
     display: flex;
     justify-content: center;
+    padding: 2rem 0rem;
 }
 .search-bar {
     width: 15rem;

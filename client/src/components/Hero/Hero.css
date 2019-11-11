@@ -6,8 +6,9 @@
 
 .header-background:after {
   content: "";
-  background: linear-gradient(45deg, rgba(0,0,0, 0), rgba(0,0,0, 100)),url("https://www.gannett-cdn.com/-mm-/5ec9ef0c8857cf33472da47b8dc044c46c03caf5/c=0-191-2124-1389&r=x803&c=1600x800/local/-/media/USATODAY/GenericImages/2014/04/20/1398047223000-library-books-1.jpg");
-  opacity: 0.5;
+  background: linear-gradient(45deg,rgba(0, 98, 102, 0.8),rgba(72, 219, 251, 0.7), rgba(72, 219, 251, 0.5), rgba(0,0,0, 0)),url("https://cdn.worldvectorlogo.com/logos/google-play-books.svg");
+  object-fit: cover;
+  opacity: 0.8;
   top: 0;
   left: 0;
   bottom: 0;
@@ -18,4 +19,8 @@
 
 .hero-container {
     padding: 2rem 0rem;
+}
+
+.main-title {
+  font-family: 'Quicksand', sans-serif;
 }
