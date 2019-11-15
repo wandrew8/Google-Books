@@ -26,11 +26,11 @@ export class CardBookSearch extends Component {
                             <div className="top-border">
 
                                 <div className="container-fluid cont">
-                                    <p>Author: <span className="list-meta">{this.props.author ? this.props.author : ''}</span></p>
-                                    <p>Release Date: <span className="list-meta">{this.props.releaseDate}</span></p>
+                                    <p>Author: <span className="list-meta">{this.props.author ? this.props.author : 'Not Available'}</span></p>
+                                    <p>Release Date: <span className="list-meta">{this.props.releaseDate ? this.props.releaseDate: 'Not Available'}</span></p>
                                 </div>
 
-                                <p className="ingredients-chef">Synopsis: <span className="list-meta">{this.props.synopsis}</span></p>
+                                <p className="ingredients-chef">Synopsis: <span className="list-meta">{this.props.synopsis? this.props.synopsis: "Not Available"}</span></p>
                                 <button className="btn btn-primary save-button" type="submit" onClick={this.props.saveBook}>Save</button>
                                 <a href={this.props.link} className="btn btn-primary view-button">View</a>
                             </div>

@@ -25,7 +25,21 @@ export class Search extends Component {
     saveBook = event => {
         event.preventDefault();
         alert("this book has been aded to your collection")
+        if (this.state.title && this.state.author) {
+            API.saveBook({
+              title: this.state.title,
+              author: this.state.author,
+              synopsis: this.state.synopsis
+            })
+              .then(res => console.log(res))
+              .catch(err => console.log(err));
+          }
     }
+
+    handleFormSubmit = event => {
+        event.preventDefault();
+        
+      };
 
     handleFormSubmit = event => {
         event.preventDefault();
