@@ -6,7 +6,7 @@ The Google Books Search app is a React-based search application which displays b
 
 ![image](client\public\desktop.gif)![image](client\public\mobile.gif)
 
-Check out the deployed site [here](https://wandrew8.github.io/Google-Book-Search).
+Check out the deployed site [here](https://desolate-brushlands-41347.herokuapp.com/).
 
 ## Technologies Used
 ### Front-End Tech
