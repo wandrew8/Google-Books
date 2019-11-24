@@ -26,7 +26,7 @@ export class CardBookSaved extends Component {
                             <div className="top-border">
 
                                 <div className="container-fluid cont">
-                                    <p>Author: <span className="list-meta">{this.props.author ? this.props.author : ''}</span></p>
+                                    <p>Author: <span className="list-meta">{this.props.authors ? this.props.authors : ''}</span></p>
                                     <p>Release Date: <span className="list-meta">{this.props.releaseDate}</span></p>
                                 </div>
 

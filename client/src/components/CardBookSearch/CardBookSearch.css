@@ -141,9 +141,9 @@ a.text-black:focus, a.text-black:hover {
   position: relative;
   height: 250px;
 }
+
 .top-border {
   border-top: solid 2px #9A9A9A;
-
 }
 
 .list-meta {
@@ -179,8 +179,8 @@ a.text-black:focus, a.text-black:hover {
   text-align: left;
   font-size: 2rem;
   height: 2.5rem;
-    overflow: auto;
-    font-family: 'Quicksand', sans-serif;
+  overflow: auto;
+  font-family: 'Quicksand', sans-serif;
 }
 
 .card-list:after {
@@ -231,10 +231,27 @@ a.text-black:focus, a.text-black:hover {
   right: 6rem;
 }
 
-.thumbnail {
+.desktop-image {
   position: absolute;
-  margin: 0 auto;
-  z-index: 100;
+  left: 5rem;
+  top: 2rem;
+  max-height: 200px;
+  width: auto;
+}
+
+.mobile-image {
+  display: none;
+}
+
+.dish-name {
+  position: relative;
+  padding: 0px 0px 5px 0px;
+  margin: 0rem 9rem 0rem 0rem;
+  text-align: left;
+  font-size: 1.8rem;
+  height: 2.5rem;
+  overflow: auto;
+  font-family: 'Quicksand', sans-serif;
 }
 
 @media only screen and (max-width: 991px) {
@@ -261,11 +278,9 @@ a.text-black:focus, a.text-black:hover {
   }
   .view-button {
     top: -25px;
-
   }
   .save-button {
     top: -25px;
-
   }
   .list-meta-price {
     max-height: 60px;
@@ -274,12 +289,53 @@ a.text-black:focus, a.text-black:hover {
   .list-meta-serving {
     max-height: 60px;
     overflow: auto;
-}
-.ingredients-chef {
-  height: 75px;
-  overflow: auto;
-  margin-bottom: 0.5rem;
-  text-align: left;
+  }
+  .ingredients-chef {
+    height: 75px;
+    overflow: auto;
+    margin-bottom: 0.5rem;
+    text-align: left;
+  }
+  .desktop-image {
+    display: none;
+  }
+  .mobile-image {
+    display: inline;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    max-height: 100px;
+    width: auto;
+  }
+  .dish-name {
+    position: relative;
+    padding: 0px 0px 1px 0px;
+    margin: 0rem 5rem 0rem 0rem;
+    text-align: left;
+    font-size: 1.8rem;
+    height: 2.5rem;
+    overflow: auto;
+    font-family: 'Quicksand', sans-serif;
+  }
 }
 
+@media only screen and (max-width: 600px) {
+  .mobile-image {
+    display: inline;
+    position: absolute;
+    right: 1.5rem;
+    top: 4.5rem;
+    max-height: 70px;
+  }
+  
+  .dish-name {
+    position: relative;
+    padding: 0px 0px 1px 0px;
+    margin: 0rem 0rem 0rem 0rem;
+    text-align: left;
+    font-size: 1.8rem;
+    height: 2.5rem;
+    overflow: auto;
+    font-family: 'Quicksand', sans-serif;
+  }
 }
