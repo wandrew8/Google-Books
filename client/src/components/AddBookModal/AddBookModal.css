@@ -2,11 +2,11 @@
     display: block;
     position: relative;
     height: auto;
+    background: linear-gradient(45deg, rgba(0, 98, 102, 0.8), rgba(72, 219, 251, 0.7), rgba(72, 219, 251, 0.5), rgba(0, 0, 0, 0)), url("https://cdn.worldvectorlogo.com/logos/google-play-books.svg");
 }
 
 .modal-header:after {
     content: "";
-    background: linear-gradient(45deg, rgba(0, 98, 102, 0.8), rgba(72, 219, 251, 0.7), rgba(72, 219, 251, 0.5), rgba(0, 0, 0, 0)), url("https://cdn.worldvectorlogo.com/logos/google-play-books.svg");
     object-fit: cover;
     opacity: 0.8;
     top: 0;
@@ -29,4 +29,19 @@
     font-family: 'Quicksand', sans-serif;
     color: #fff;
     text-shadow: -4px 3px 0 rgba(9, 132, 227, 0.4);
+  }
+
+  .modal-footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .modal-body h5 {
+    font-size: 1rem;
+  }
+
+  button .close {
+    position: absolute;
+    top: 0;
+    right: 0;
   }

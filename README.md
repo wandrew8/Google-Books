@@ -4,7 +4,7 @@
 
 The Google Books Search app is a React-based search application which displays book information based on the user's search. It also allows the user to save books to review or purchase later. User's saved book information is stored in a Mongodb database. The website consists of two dynamically created react pages; A search page which show queried book information and and a Saved page which displays saved books. Look below to see how the site works.
 
-![image]()
+![image](client\public\desktop.gif)![image](client\public\mobile.gif)
 
 Check out the deployed site [here](https://wandrew8.github.io/Google-Book-Search).
 

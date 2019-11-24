@@ -20,7 +20,9 @@ export class CardBookSearch extends Component {
         return (
             <React.Fragment>
                 <AddBookModal 
+                id={this.props.id}
                 title={this.props.title}
+                image={this.props.image}
                 />
                 <div id={this.props.id} className="col-xs-6 list-container">
                     <div className="card-list mb-2">

@@ -29,9 +29,7 @@ export class Saved extends Component {
     render() {
         return (
             <div className="container">
-            <CardBookSaved 
-                removeBook={this.removeBook}
-            />
+            <h2>You have no books in your collection</h2>
             </div>
         )
     }
